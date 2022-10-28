@@ -4,3 +4,5 @@
 - options in Stack.Screen: title, headerStyle, headerTintColor
 - screenOptions in Stack.Navigator
 - navigation.setOptons() to be used in useLayoutEffect hook
+- use array's map method to display a list of JSX components
+- set header text or icon with navigation.setOptions({headerRight: <JSX component>, headerLeft: <JSX component>})

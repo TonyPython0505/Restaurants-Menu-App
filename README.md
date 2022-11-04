@@ -1,5 +1,12 @@
 # Restaurants-Menu-App!
-[Screen Shot 2022-10-27 at 01 42 47](https://user-images.githubusercontent.com/87828913/198222130-df97105d-424d-4b32-add7-5618220d94a9.png)
+Learnt about:
+- screens navigation with createNavigateStackNavigator
+- NavigationContainer, Stack.Navigator and Stack.Screen
+- props.navigation.navigate(<screen name>, param object)
+- props.route.params.<key name> to extract items from param object sent in props.navigation.navigate()
+- useNavigation hook to replace the navigation prop which can be used in unregistered screens
+- useRoute hook to replace props.route which can be used in unregistered screens
+- adding images from the web with <Image source={{uri: imageURL}} />
 - change style on press
 - options in Stack.Screen: title, headerStyle, headerTintColor
 - screenOptions in Stack.Navigator

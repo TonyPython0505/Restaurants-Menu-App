@@ -1,7 +1,7 @@
 # Restaurants-Menu-App!
 Learnt about:
-- screens navigation with createNavigateStackNavigator
-- NavigationContainer, Stack.Navigator and Stack.Screen
+- screens navigation with createNavigateStackNavigator imported from '@react-navigation/native-stack'
+- NavigationContainer imported from '@react-navigation/native', Stack.Navigator and Stack.Screen
 - props.navigation.navigate(<screen name>, param object)
 - props.route.params.<key name> to extract items from param object sent in props.navigation.navigate()
 - useNavigation hook to replace the navigation prop which can be used in unregistered screens

@@ -9,7 +9,7 @@ Learnt about:
 - useRoute hook to replace props.route which can be used in unregistered screens
 - adding images from the web with <Image source={{uri: imageURL}} />
 - change style on press
-- options in Stack.Screen: title, headerStyle, headerTintColor
+- options in Stack.Screen: title, headerStyle, headerTintColor (header text color)
 - screenOptions in Stack.Navigator
 - navigation.setOptons() to be used in useLayoutEffect hook
 - use array's map method to display a list of JSX components

@@ -1,6 +1,9 @@
 import { View, Pressable, Text, StyleSheet, Platform } from 'react-native'
+//import { useNavigation } from '@react-navigation/native'
 
 export default function CategoryGridTile(props) {
+	//const navigation = useNavigation()
+
 	return (
 		<View style={styles.gridItem}>
 			<Pressable android_ripple={{color:'#ccc'}} style={({pressed}) => [styles.button, pressed ? styles.buttonPressed: null]} onPress={props.onPress}>

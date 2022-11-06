@@ -16,3 +16,6 @@ Learnt about:
 - set header text or icon with navigation.setOptions({headerRight: <JSX component>, headerLeft: <JSX component>})
 - Nesting navigators
 - sceneContainerStyle in Drawer.Navigator screenOptions -> just like contentStyle in Stack.Navigator
+- createContext from 'react' -> used to pass app-wide data, functions, state. const SomeContextObject = createContext(emptyContextObject).
+- <SomeContextObject.Provider value={filledContextObject}>{children}</SomeContextObject.Provider>
+- useContext(objectCreatedBy_createContext) hook
